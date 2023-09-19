@@ -33,7 +33,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "80"
+		port = "7860"
 	}
 
 	for _, line := range strings.Split(startupMessage, "\n") {
